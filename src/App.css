@@ -1,0 +1,170 @@
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainDark: #000;
+  --mainYellow: #ffa400;
+}
+
+body {
+  font-family: "Oswald", sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+.text-title {
+  font-family: "Permanent Marker", cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-blue {
+  color: var(--mainBlue);
+}
+.text-bright {
+  color: var(--lightBlue);
+}
+.navbar {
+  justify-content: flex-start !important;
+}
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainBlack);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
+.footer {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(156, 165, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.className {
+  color: rgb(31, 137, 179);
+  margin: 20px;
+  font-size: 70px;
+
+  padding-left: 30px;
+  padding-right: 20px;
+}
+svg {
+  padding-right: 20px;
+  size: 90px;
+}
+.footer p {
+  color: rgb(3, 45, 65);
+}
+.brk {
+  font-family: "Zen Tokyo Zoo";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 90px;
+  line-height: 50px;
+  text-align: left;
+  margin-top: 400px;
+  margin-left: 40px;
+  margin-bottom: 300px;
+  padding-right: 200px;
+  padding-top: 200px;
+  padding-left: 0px;
+  color: #3a1cc0;
+}
+
+.det:first-child {
+  margin-left: 0px;
+}
+.det:last-child {
+  margin-right: 0px;
+  width: 70px;
+}
+.fa {
+  size: 50px;
+}
+
+.det {
+  size: 50px;
+  font-size: 25px;
+
+  color: rgb(16, 19, 233);
+  padding-left: 30px;
+  padding-bottom: 60px;
+  margin-top: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: auto;
+  padding-right: 0px;
+}
+
+.content-header {
+  font-family: "Oleo Script", cursive;
+  color: #fcc500;
+  font-size: 45px;
+}
+
+.section-content {
+  text-align: center;
+}
+#contact {
+  font-family: "Teko", sans-serif;
+  padding-top: 60px;
+  width: 100%;
+  width: 100vw;
+  height: 550px;
+  background: #3a6186; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #6d681f,
+    #f1611e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #f8e471,
+    #e0470a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+}
+.contact-section {
+  padding-top: 40px;
+}
+.contact-section .col-md-6 {
+  width: 50%;
+}
+
+.form-line {
+  border-right: 1px solid #b29999;
+}
+
+.form-group {
+  margin-top: 10px;
+}
+label {
+  font-size: 1.3em;
+  line-height: 1em;
+  font-weight: normal;
+}
+.form-control {
+  font-size: 1.3em;
+  color: #080808;
+}
+
+.submit {
+  font-size: 1.1em;
+  float: right;
+  width: 150px;
+
+  color: rgb(177, 124, 10);
+}
